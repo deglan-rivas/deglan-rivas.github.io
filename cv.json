@@ -6,7 +6,7 @@
     "email": "deglan.rivas@pucp.edu.pe",
     "phone": "+51 989743073",
     "url": "https://midu.dev",
-    "summary": "+3 años de experiencia como Backend Developer con un enfoque en la creación de aplicaciones escalables. Profundo conocimiento en el diseño e implementación de APIs RESTful y bases de datos SQL / NoSQL. Experiencia adicional en el desarrollo frontend con React y la creación de pipelines para automatizar despliegues.",
+    "summary": "+3 años de experiencia como Backend Developer con un enfoque en la creación de aplicaciones escalables. Profundo conocimiento en el diseño e implementación de APIs RESTful y bases de datos SQL / NoSQL. Experiencia adicional en el desarrollo frontend con React y la creación de pipelines para automatizar despliegues. Más información interactiva en https://deglan-rivas.github.io/frontend-astro-portafolio/",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -30,13 +30,14 @@
         "username": "midudev",
         "url": "https://hub.docker.com/u/deglanrivas"
       }
-    ]
+    ],
+    "portafolio": "https://deglan-rivas.github.io/frontend-astro-portafolio/"
   },
   "work": [
     {
       "name": "Notifai",
       "position": "Backend Developer",
-      "url": "https://www.linkedin.com/in/deglan-jesus-64000a17a/",
+      "url": "https://www.notifai.pe/",
       "startDate": "2023-01-15",
       "endDate": null,
       "summary": "Editar.",
@@ -47,7 +48,7 @@
     {
       "name": "MDP",
       "position": "Backend Developer",
-      "url": "https://www.linkedin.com/in/deglan-jesus-64000a17a/",
+      "url": "https://pe.linkedin.com/company/miatech-s-a-c",
       "startDate": "2022-03-01",
       "endDate": "2022-11-01",
       "summary": "Editar.",
@@ -58,7 +59,7 @@
     {
       "name": "Kranzz",
       "position": "Lider de Proyectos",
-      "url": "https://www.linkedin.com/in/deglan-jesus-64000a17a/",
+      "url": "https://www.kranzzingenieria.com/",
       "startDate": "2020-11-01",
       "endDate": "2021-08-01",
       "summary": "Editar.",
@@ -111,150 +112,175 @@
   }],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
+      "field": "Maquetación",
+      "stack": [
+        {
+          "name": "HTML",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend"
+          ]
+        },
+        {
+          "name": "CSS",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Diseño Responsive"
+          ]
+        },
+        {
+          "name": "Tailwind",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        },
+        {
+          "name": "Bootstrap",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        },
+        {
+          "name": "Sass",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        }
       ]
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      "field": "Frontend",
+      "stack": [
+        {
+          "name": "JavaScript",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+          ]
+        },
+        {
+          "name": "React",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          ]
+        },
+        {
+          "name": "ReactRouter",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          ]
+        },
+        {
+          "name": "Next",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+          ]
+        },
+        {
+          "name": "AstroJS",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+          ]
+        }
       ]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      "field": "Backend",
+      "stack": [
+        {
+          "name": "Node",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+        },
+        {
+          "name": "Express",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+        },
+        {
+          "name": "TypeScript",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+          ]
+        },
+        {
+          "name": "Nest",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+        }
       ]
     },
     {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      "field": "Database",
+      "stack": [
+        {
+          "name": "PostgreSQL",
+          "level": "Avanzado",
+          "keywords": [
+            "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          ]
+        },
+        {
+          "name": "MySQL",
+          "level": "Avanzado",
+          "keywords": [
+            "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          ]
+        },
+        {
+          "name": "MongoDB",
+          "level": "Avanzado",
+          "keywords": [
+            "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          ]
+        }
       ]
     },
     {
-      "name": "Bootstrap",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "Sass",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
-    },
-    {
-      "name": "ReactRouter",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
-    },
-    {
-      "name": "Next",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "AstroJS",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "Express",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Nest",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "PostgreSQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "GitHub Actions",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Docker",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Kubernetes",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "AWS",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      "field": "DevOps",
+      "stack": [
+        {
+          "name": "GitHub Actions",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          ]
+        },
+        {
+          "name": "Docker",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          ]
+        },
+        {
+          "name": "Kubernetes",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          ]
+        },
+        {
+          "name": "AWS",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          ]
+        }
       ]
     }
   ],
@@ -285,21 +311,25 @@
       "isActive": false,
       "description": "CRM hecho con MERN",
       "highlights": [
-        "react - react router dom",
-        "node - express",
+        "react",
+        "react router dom",
+        "node",
+        "express",
         "mongodb"
       ],
       "url": "https://cozy-marshmallow-9bef05.netlify.app/",
       "github": "https://github.com/deglan-rivas/frontend-node-crud",
-      "dockerhub": ""
+      "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/frontend-node-crud/general"
     },
     {
       "name": "Clon GuitarLA",
       "isActive": false,
       "description": "frontend con ServerSideRendering",
       "highlights": [
-        "react - next.js",
-        "node - strapi",
+        "react",
+        "next",
+        "node",
+        "strapi",
         "postgresql",
         "cloudinary"
       ],

@@ -55,7 +55,7 @@ const SKILLS_ICONS: Record<string, any> = {
 ---
 
 <Section title="Habilidades">
-  <ul>
+  <!-- <ul>
     {
       skills.map(({ name }) => {
         // const iconName = name === "Next.js" ? "Next" : name
@@ -69,7 +69,27 @@ const SKILLS_ICONS: Record<string, any> = {
         )
       })
     }
-  </ul>
+  </ul> -->
+
+  {skills.map(({field, stack}) => {
+
+    return (
+      <div>
+        <h3>{field}</h3>
+        <ul>
+          {stack.map(({name}) => {
+            const Icon = SKILLS_ICONS[name]
+  
+            return (
+              <li>
+                {Icon && <Icon/>} <span>{name}</span>
+              </li>
+            )
+          })} 
+        </ul>
+      </div>
+    )
+  })}
 </Section>
 
 <style>
@@ -89,5 +109,20 @@ const SKILLS_ICONS: Record<string, any> = {
     font-weight: 500;
     gap: 4px;
     padding: 0.2rem 0.6rem;
+  }
+
+  div {
+    margin-bottom: 10px;
+  }
+
+  div h3 {
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  div span {
+    font-size: 0.7rem;
   }
 </style>

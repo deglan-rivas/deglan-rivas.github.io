@@ -7,22 +7,24 @@ import Phone from "@/icons/Phone.astro"
 import DockerHub from "@/icons/DockerHub.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
+import Portafolio from "@/icons/portafolio.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, image, location, profiles, phone, email, portafolio } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
   DockerHub,
+  Portafolio
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [email, phone, linkedUrl, portafolio].filter(Boolean).join("  •  ")
 ---
 
 <Section>
@@ -77,6 +79,18 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
               </a>
             )
           })
+        }
+        {
+          portafolio && (
+            <a
+              href={`${portafolio}`}
+              title={`Revisar el portafolio de ${name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Portafolio />
+            </a>
+          )
         }
       </footer>
     </div>
