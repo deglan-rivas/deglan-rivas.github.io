@@ -139,10 +139,45 @@
       ]
     },
     {
-      "name": "TypeScript",
+      "name": "Bootstrap",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Sass",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "ReactRouter",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Next",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "AstroJS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
       ]
     },
     {
@@ -153,6 +188,34 @@
       ]
     },
     {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Nest",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
@@ -160,31 +223,38 @@
       ]
     },
     {
-      "name": "Git",
+      "name": "MongoDB",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
       ]
     },
     {
-      "name": "GitHub",
+      "name": "GitHub Actions",
       "level": "Avanzado",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
       ]
     },
     {
-      "name": "Next.js",
+      "name": "Docker",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
       ]
     },
     {
-      "name": "React",
+      "name": "Kubernetes",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
       ]
     }
   ],
@@ -211,7 +281,7 @@
   }],
   "projects": [
     {
-      "name": "administrador de pedidos",
+      "name": "Administrador de Pedidos",
       "isActive": false,
       "description": "CRM hecho con MERN",
       "highlights": [
@@ -219,11 +289,12 @@
         "node - express",
         "mongodb"
       ],
-      "url": "https://www.linkedin.com/in/deglan-jesus-64000a17a/",
-      "github": "https://www.linkedin.com/in/deglan-jesus-64000a17a/"
+      "url": "https://cozy-marshmallow-9bef05.netlify.app/",
+      "github": "https://github.com/deglan-rivas/frontend-node-crud",
+      "dockerhub": ""
     },
     {
-      "name": "clon GuitarLA",
+      "name": "Clon GuitarLA",
       "isActive": false,
       "description": "frontend con ServerSideRendering",
       "highlights": [
@@ -232,18 +303,22 @@
         "postgresql",
         "cloudinary"
       ],
-      "url": "https://www.linkedin.com/in/deglan-jesus-64000a17a/",
-      "github": "https://www.linkedin.com/in/deglan-jesus-64000a17a/"
+      "url": "https://frontend-next-p6.vercel.app/",
+      "github": "https://github.com/deglan-rivas/frontend-next-p6",
+      "dockerhub": ""
     },
     {
-      "name": "administrador de presupuestos",
+      "name": "Administrador de Presupuestos",
       "description": "administrador con vanillaCSS",
       "highlights": [
         "react",
+        "react-swipe-list",
         "vite",
         "localStorage"
       ],
-      "url": "https://www.linkedin.com/in/deglan-jesus-64000a17a/"
+      "url": "https://soft-manatee-e9a4f6.netlify.app/",
+      "github": "https://github.com/deglan-rivas/frontend-react-p2",
+      "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/frontend-react-p2"
     }
   ]
 }

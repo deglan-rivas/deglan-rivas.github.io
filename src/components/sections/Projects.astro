@@ -1,5 +1,6 @@
 ---
 import GitHub from "@/icons/GitHub.astro"
+import DockerHub from "@/icons/DockerHub.astro";
 import Section from "../Section.astro"
 
 import { projects } from "@cv"
@@ -9,7 +10,7 @@ import { projects } from "@cv"
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights, name, isActive, github, dockerhub }) => {
           return (
             <li>
               <article>
@@ -27,6 +28,16 @@ import { projects } from "@cv"
                         title={`Ver código fuente del proyecto ${name}`}
                       >
                         <GitHub />
+                      </a>
+                    )}
+                    {dockerhub && (
+                      <a
+                        class="github-code-link"
+                        href={dockerhub}
+                        target="_blank"
+                        title={`Ver imagen dockerizada del proyecto ${name}`}
+                      >
+                        <DockerHub />
                       </a>
                     )}
                   </h3>

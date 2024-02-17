@@ -1,16 +1,32 @@
 ---
 import Section from "../Section.astro"
+
 import HTML from "@/icons/html.astro"
 import CSS from "@/icons/css.astro"
 import JavaScript from "@/icons/javascript.astro"
-import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
 import Tailwind from "@/icons/tailwind.astro"
+import Bootstrap from '@/icons/bootstrap.astro'
+import Sass from '@/icons/sass.astro'
+
+import React from "@/icons/react.astro"
+import ReactRouter from "@/icons/reactRouter.astro"
 import Next from "@/icons/next.astro"
+import AstroJS from '@/icons/astrojs.astro'
+
+import TypeScript from "@/icons/type.astro"
+import Node from "@/icons/node.astro"
+import Express from "@/icons/express.astro"
+import Nest from "@/icons/nest.astro"
+
+import MySQL from "@/icons/mysql.astro"
+import PostgreSQL from "@/icons/postgresql.astro"
+import MongoDB from "@/icons/mongodb.astro"
+
+import GitHub from "@/icons/GitHub.astro"
+import DockerHub from "@/icons/DockerHub.astro"
+import Kubernetes from "@/icons/kubernetes.astro"
+import AWS from "@/icons/aws.astro"
+
 import { skills } from "@cv"
 
 const SKILLS_ICONS: Record<string, any> = {
@@ -21,10 +37,20 @@ const SKILLS_ICONS: Record<string, any> = {
   React,
   Node,
   MySQL,
-  Git,
-  GitHub,
+  "GitHub Actions": GitHub,
   Next,
   Tailwind,
+  Bootstrap,
+  Sass,
+  ReactRouter,
+  AstroJS,
+  Express,
+  Nest,
+  PostgreSQL,
+  MongoDB,
+  "Docker": DockerHub,
+  Kubernetes,
+  AWS
 }
 ---
 
@@ -32,8 +58,9 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
-        const Icon = SKILLS_ICONS[iconName]
+        // const iconName = name === "Next.js" ? "Next" : name
+        // const Icon = SKILLS_ICONS[iconName]
+        const Icon = SKILLS_ICONS[name]
 
         return (
           <li>
