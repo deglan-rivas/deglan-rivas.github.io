@@ -40,7 +40,7 @@
       "url": "https://www.notifai.pe/",
       "startDate": "2023-01-15",
       "endDate": null,
-      "summary": "Editar.",
+      "summary": "Participé de la migración de un chatbot para el cliente UPN. La migración implicó la transición del monolito a una arquitectura basada en eventos y microservicios en la nube AWS utilizando servicios como Lambda, SQS, EventBridge. Además, contribuí en la creación de pipelines para desarrollo y producción, así como el modelado de datos de la nueva DB no relacional en DocumentDB",
       "highlights": [
         "Started the company"
       ]
@@ -51,18 +51,18 @@
       "url": "https://pe.linkedin.com/company/miatech-s-a-c",
       "startDate": "2022-03-01",
       "endDate": "2022-11-01",
-      "summary": "Editar.",
+      "summary": "Desarrollé nuevas funcionalidades para el chatbot DAVI de UPN, incluyendo la implementación de Jobs y Stored Procedures para optimizar la base de datos relacional. Además, colaboré en la migración del código de Javascript a Typescript y proporcioné capacitación a mis colegas",
       "highlights": [
         "Started the company"
       ]
     },
     {
       "name": "Kranzz",
-      "position": "Lider de Proyectos",
+      "position": "Ingeniero de Diseño y Proyectos",
       "url": "https://www.kranzzingenieria.com/",
       "startDate": "2020-11-01",
       "endDate": "2021-08-01",
-      "summary": "Editar.",
+      "summary": "Participé del proceso creativo de diseño de carcasas mecánicas, planificación del proyecto, creación de mockups para la aplicación móvil utilizando Figma, el desarrollo del proyecto en Flutter y la generación de indicadores para reportes",
       "highlights": [
         "Started the company"
       ]
@@ -307,9 +307,9 @@
   }],
   "projects": [
     {
-      "name": "Administrador de Pedidos",
+      "name": "Gestor de Pedidos",
       "isActive": false,
-      "description": "CRM hecho con MERN",
+      "description": "CRM para administrar clientes, productos, pedidos. Creado usando el stack MERN",
       "highlights": [
         "react",
         "react router dom",
@@ -324,7 +324,7 @@
     {
       "name": "Clon GuitarLA",
       "isActive": false,
-      "description": "frontend con ServerSideRendering",
+      "description": "Tienda que consume data de un Backend utilizando Server Side Rendering en Next.js",
       "highlights": [
         "react",
         "next",
@@ -338,8 +338,8 @@
       "dockerhub": ""
     },
     {
-      "name": "Administrador de Presupuestos",
-      "description": "administrador con vanillaCSS",
+      "name": "Gestor de Presupuestos",
+      "description": "Administrador creado y empaquetado usando diversas tecnologías minimalistas",
       "highlights": [
         "react",
         "react-swipe-list",
