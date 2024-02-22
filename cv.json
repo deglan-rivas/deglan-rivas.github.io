@@ -350,5 +350,13 @@
       "github": "https://github.com/deglan-rivas/frontend-react-p2",
       "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/frontend-react-p2"
     }
-  ]
+  ],
+  "titles": {
+    "about_title": "Sobre mí",
+    "education_title": "Educación",
+    "experience_title": "Experiencia laboral",
+    "hero_title": "",
+    "projects_title": "Proyectos",
+    "skills_title": "Habilidades"
+  }
 }

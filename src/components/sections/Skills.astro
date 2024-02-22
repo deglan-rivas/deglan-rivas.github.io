@@ -27,7 +27,8 @@ import DockerHub from "@/icons/DockerHub.astro"
 import Kubernetes from "@/icons/kubernetes.astro"
 import AWS from "@/icons/aws.astro"
 
-import { skills } from "@cv"
+import { skills, titles } from "@cv"
+const { skills_title } = titles
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -54,7 +55,7 @@ const SKILLS_ICONS: Record<string, any> = {
 }
 ---
 
-<Section title="Habilidades">
+<Section title={skills_title}>
   <!-- <ul>
     {
       skills.map(({ name }) => {

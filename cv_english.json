@@ -1,66 +1,69 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full-Stack developer with more than 15 years of experience & development content creator",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
+    "name": "Deglan Jesus Rivas Romero",
+    "label": "Full Stack Developer | DevOps | AWS | SQL ",
+    "image": "https://media.licdn.com/dms/image/C4D03AQEruggsYMf6Dw/profile-displayphoto-shrink_200_200/0/1585621857375?e=1713398400&v=beta&t=3O_-y3Zlni6L6yfPcAt50-HVexusWouqFo3ZX4xNF1c",
+    "email": "deglan.rivas@pucp.edu.pe",
+    "phone": "+51 989743073",
     "url": "https://midu.dev",
-    "summary": "+15 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "summary_title": "About me",
+    "summary": "Over 3 years of experience as a Backend Developer with a focus on creating scalable applications. Deep expertise in designing and implementing RESTful APIs and SQL/NoSQL databases. Additional experience in frontend development with React and creating pipelines for automating deployments. For further interactive details, please visit https://deglan-rivas.github.io/frontend-astro-portafolio/.",
     "location": {
       "address": "",
       "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "city": "Lima",
       "countryCode": "ES",
-      "region": "Spain"
+      "region": "Perú"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "url": "https://www.linkedin.com/in/deglan-jesus-64000a17a/"
       },
       {
         "network": "GitHub",
         "username": "midudev",
-        "url": "https://github.com/midudev"
+        "url": "https://github.com/deglan-rivas"
+      },
+      {
+        "network": "DockerHub",
+        "username": "midudev",
+        "url": "https://hub.docker.com/u/deglanrivas"
       }
-    ]
+    ],
+    "portafolio": "https://deglan-rivas.github.io/frontend-astro-portafolio/"
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Web programming communicator",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Notifai",
+      "position": "Backend Developer",
+      "url": "https://www.notifai.pe/",
+      "startDate": "2023-01-15",
       "endDate": null,
-      "summary": "Most watched development streamer in Spanish on Twitch. +1 million followers across all my social networks. Recognised by Google, Microsoft and GitHub for my impact on the development community.",
+      "summary": "I participated in the migration of a chatbot for the UPN client. The migration involved transitioning from a monolith to an event-driven architecture and cloud-based microservices on AWS, utilizing services such as Lambda, SQS, and EventBridge. Additionally, I contributed to the creation of pipelines for development and production, as well as the modeling of data for the new non-relational DB in DocumentDB.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "I led a technical convergence between different products and migrated from a monolithic architecture to a more flexible and optimised one. I fostered best practices and performance culture improvements, as well as rapid delivery of value to users.",
+      "name": "MDP",
+      "position": "Backend Developer",
+      "url": "https://pe.linkedin.com/company/miatech-s-a-c",
+      "startDate": "2022-03-01",
+      "endDate": "2022-11-01",
+      "summary": "I developed new functionalities for UPN's DAVI chatbot, including the implementation of Jobs and Stored Procedures to optimize the relational database. Furthermore, I collaborated on the migration of JavaScript code to TypeScript and provided training to my colleagues.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "I developed a geolocated news platform and an API to consume the information. Scaled services to support the load of over hundreds of thousands of requests per day. Cut delivery times and deployments to production by half. Collaborated with Mozilla and Telefónica to develop the first FirefoxOS TV app.",
+      "name": "Kranzz",
+      "position": "Project Design Engineer",
+      "url": "https://www.kranzzingenieria.com/",
+      "startDate": "2020-11-01",
+      "endDate": "2021-08-01",
+      "summary": "I was involved in the creative process of mechanical casing design, project planning, creation of mockups for the mobile application using Figma, project development in Flutter, and generation of indicators for reports.",
       "highlights": [
         "Started the company"
       ]
@@ -78,12 +81,13 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Software Engineer",
+    "education_title": "Education",
+    "institution": "Pontificia Universidad Católica del Perú",
+    "url": "https://www.pucp.edu.pe/",
+    "area": "Mechatronic Engineer",
     "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
+    "startDate": "2015-03-03",
+    "endDate": "2020-12-12",
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -110,80 +114,175 @@
   }],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend"
+      "field": "Layout",
+      "stack": [
+        {
+          "name": "HTML",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend"
+          ]
+        },
+        {
+          "name": "CSS",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Diseño Responsive"
+          ]
+        },
+        {
+          "name": "Tailwind",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        },
+        {
+          "name": "Bootstrap",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        },
+        {
+          "name": "Sass",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        }
       ]
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend", "Diseño Responsive"
+      "field": "Frontend",
+      "stack": [
+        {
+          "name": "JavaScript",
+          "level": "Master",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+          ]
+        },
+        {
+          "name": "React",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          ]
+        },
+        {
+          "name": "ReactRouter",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          ]
+        },
+        {
+          "name": "Next",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+          ]
+        },
+        {
+          "name": "AstroJS",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+          ]
+        }
       ]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend", "Backend", "Fullstack"
+      "field": "Backend",
+      "stack": [
+        {
+          "name": "Node",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+        },
+        {
+          "name": "Express",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+        },
+        {
+          "name": "TypeScript",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+          ]
+        },
+        {
+          "name": "Nest",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+        }
       ]
     },
     {
-      "name": "Tailwind",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "CSS Framework", "Diseño Responsive"
+      "field": "Database",
+      "stack": [
+        {
+          "name": "PostgreSQL",
+          "level": "Avanzado",
+          "keywords": [
+            "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          ]
+        },
+        {
+          "name": "MySQL",
+          "level": "Avanzado",
+          "keywords": [
+            "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          ]
+        },
+        {
+          "name": "MongoDB",
+          "level": "Avanzado",
+          "keywords": [
+            "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          ]
+        }
       ]
     },
     {
-      "name": "TypeScript",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Advanced",
-      "keywords": [
-        "Bases de Datos", "SQL", "Database", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Advanced",
-      "keywords": [
-        "Version control", "Colaboración", "Source code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Advanced",
-      "keywords": [
-        "Version control", "Collaboration", "Source code", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "JavaScript Library", "UI"
+      "field": "DevOps",
+      "stack": [
+        {
+          "name": "GitHub Actions",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          ]
+        },
+        {
+          "name": "Docker",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          ]
+        },
+        {
+          "name": "Kubernetes",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          ]
+        },
+        {
+          "name": "AWS",
+          "level": "Avanzado",
+          "keywords": [
+            "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          ]
+        }
       ]
     }
   ],
@@ -210,66 +309,56 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
+      "name": "Order Manager",
+      "isActive": false,
+      "description": "CRM for managing clients, products, and orders. Built using the MERN stack.",
       "highlights": [
-        "Choose your own adventure",
-        "In progress"
+        "react",
+        "react router dom",
+        "node",
+        "express",
+        "mongodb"
       ],
-      "url": "https://mars.codes"
+      "url": "https://cozy-marshmallow-9bef05.netlify.app/",
+      "github": "https://github.com/deglan-rivas/frontend-node-crud",
+      "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/frontend-node-crud/general"
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "JavaScript programming challenges for every day of December until Christmas",
+      "name": "GuitarLA Clon",
+      "isActive": false,
+      "description": "Store consuming data from a Backend using Server Side Rendering in Next.js.",
       "highlights": [
-        "+1 million visits",
-        "Multilanguage",
-        "JavaScript & TypeScript"
+        "react",
+        "next",
+        "node",
+        "strapi",
+        "postgresql",
+        "cloudinary"
       ],
-      "url": "https://advent.js/dev"
+      "url": "https://frontend-next-p6.vercel.app/",
+      "github": "https://github.com/deglan-rivas/frontend-next-p6",
+      "dockerhub": ""
     },
     {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Interactive programming game with challenges and secrets",
+      "name": "Budget Manager",
+      "description": "Administrator created and packaged using various minimalist technologies.",
       "highlights": [
-        "+2000 active users",
-        "Challenges for any language"
+        "react",
+        "react-swipe-list",
+        "vite",
+        "localStorage"
       ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground of HTML, CSS and JavaScript code for sharing",
-      "highlights": [
-        "100k monthly visit",
-        "Developed by the community"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "List of technical tests of companies to practice programming",
-      "highlights": [
-        "100% free",
-        "+500 community solutions"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Streaming programming conference for the Spanish-speaking community with top talks",
-      "highlights": [
-        "+15k tickets handed over",
-        "+50k live viewers"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://soft-manatee-e9a4f6.netlify.app/",
+      "github": "https://github.com/deglan-rivas/frontend-react-p2",
+      "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/frontend-react-p2"
     }
-  ]
+  ],
+  "titles": {
+    "about_title": "About me",
+    "education_title": "Education",
+    "experience_title": "Work experience",
+    "hero_title": "",
+    "projects_title": "Projects",
+    "skills_title": "Skills"
+  }
 }

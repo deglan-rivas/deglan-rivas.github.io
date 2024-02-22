@@ -3,10 +3,11 @@ import GitHub from "@/icons/GitHub.astro"
 import DockerHub from "@/icons/DockerHub.astro";
 import Section from "../Section.astro"
 
-import { projects } from "@cv"
+import { projects, titles } from "@cv"
+const { projects_title } = titles
 ---
 
-<Section title="Proyectos">
+<Section title={projects_title}>
   <ul>
     {
       projects.map(

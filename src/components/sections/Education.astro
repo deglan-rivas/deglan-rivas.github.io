@@ -1,10 +1,12 @@
 ---
 import Section from "../Section.astro"
 
-import { education } from "@cv"
+import { education, titles } from "@cv"
+const { education_title } = titles
+
 ---
 
-<Section title="Educación">
+<Section title={education_title}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {
