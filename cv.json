@@ -314,7 +314,7 @@
   }],
   "projects": [
     {
-      "name": "Gestor de Pedidos",
+      "name": "Gestor Pedidos",
       "isActive": false,
       "description": "CRM para administrar clientes, productos, pedidos. Creado usando el stack MERN",
       "highlights": [
@@ -345,7 +345,7 @@
       "dockerhub": ""
     },
     {
-      "name": "Gestor de Presupuestos",
+      "name": "Gestor Costes",
       "description": "Administrador creado y empaquetado usando diversas tecnologías minimalistas",
       "highlights": [
         "react",
@@ -358,7 +358,7 @@
       "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/frontend-react-p2"
     },
     {
-      "name": "Clon de Meta",
+      "name": "Clon Meta",
       "description": "Layout de homepage de Meta. Incluye media queries",
       "highlights": [
         "react",
@@ -371,7 +371,7 @@
       "github": "https://github.com/deglan-rivas/layout-tailwind-clonMeta"
     },
     {
-      "name": "Clon de Bootstrap",
+      "name": "Clon Bootstrap",
       "description": "Layout de homepage Bootstrap. Incluye media queries",
       "highlights": [
         "react",
