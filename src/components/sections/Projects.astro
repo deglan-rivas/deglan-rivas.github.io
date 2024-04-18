@@ -78,10 +78,17 @@ const { projects_title } = titles
 
   article header {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   article h3 {
     margin-bottom: 4px;
+  }
+
+  article h3 a {
+    font-size: 0.9em;
   }
 
   article a {
@@ -96,6 +103,7 @@ const { projects_title } = titles
     font-size: 0.75rem;
     line-height: 1.2rem;
     margin-bottom: 4px;
+    letter-spacing: -0.065rem;
   }
 
   article h3 span {

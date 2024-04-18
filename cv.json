@@ -6,7 +6,7 @@
     "email": "deglan.rivas@pucp.edu.pe",
     "phone": "+51 989743073",
     "url": "https://midu.dev",
-    "summary": "+3 años de experiencia como Backend Developer con un enfoque en la creación de aplicaciones escalables. Profundo conocimiento en el diseño e implementación de APIs RESTful y bases de datos SQL / NoSQL. Experiencia adicional en el desarrollo frontend con React y la creación de pipelines para automatizar despliegues. Más información interactiva en https://deglan-rivas.github.io/frontend-astro-portafolio/",
+    "summary": "+4 años de experiencia como Backend Developer con un enfoque en la creación de aplicaciones escalables. Profundo conocimiento en el diseño e implementación de APIs RESTful y bases de datos SQL / NoSQL. Experiencia adicional en el desarrollo frontend con React y la creación de pipelines para automatizar despliegues. Más información interactiva en https://deglan-rivas.github.io/",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -31,7 +31,7 @@
         "url": "https://hub.docker.com/u/deglanrivas"
       }
     ],
-    "portafolio": "https://deglan-rivas.github.io/frontend-astro-portafolio/"
+    "portafolio": "https://deglan-rivas.github.io/"
   },
   "work": [
     {
@@ -144,6 +144,13 @@
         },
         {
           "name": "Sass",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          ]
+        },
+        {
+          "name": "Shadcn",
           "level": "Avanzado",
           "keywords": [
             "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
@@ -349,6 +356,32 @@
       "url": "https://soft-manatee-e9a4f6.netlify.app/",
       "github": "https://github.com/deglan-rivas/frontend-react-p2",
       "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/frontend-react-p2"
+    },
+    {
+      "name": "Clon de Meta",
+      "description": "Layout de homepage de Meta. Incluye media queries",
+      "highlights": [
+        "react",
+        "tailwindcss",
+        "vite",
+        "shadcn",
+        "shutterstock"
+      ],
+      "url": "https://timely-kitsune-3e5dcb.netlify.app/",
+      "github": "https://github.com/deglan-rivas/layout-tailwind-clonMeta"
+    },
+    {
+      "name": "Clon de Bootstrap",
+      "description": "Layout de homepage Bootstrap. Incluye media queries",
+      "highlights": [
+        "react",
+        "tailwindcss",
+        "vite",
+        "shadcn",
+        "highlightjs"
+      ],
+      "url": "https://roaring-bublanina-1b1a88.netlify.app/",
+      "github": "https://github.com/deglan-rivas/layout-tailwind-clonBootstrap"
     }
   ],
   "titles": {

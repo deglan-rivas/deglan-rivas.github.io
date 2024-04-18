@@ -11,6 +11,8 @@ import Portafolio from "@/icons/portafolio.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
+import me from '@/../public/me.jpeg'
+
 const { name, label, image, location, profiles, phone, email, portafolio } = basics
 const { city, region } = location
 
@@ -95,7 +97,9 @@ const printInfo = [email, phone, linkedUrl, portafolio].filter(Boolean).join("  
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name} />
+      <!-- hidden because some companies automatically reject if include personal image -->
+      <!-- <img src={"/public/me.jpeg"} alt={name} /> -->
+      <img src={me.src} alt={name} />
     </figure>
   </div>
 </Section>
@@ -132,6 +136,7 @@ const printInfo = [email, phone, linkedUrl, portafolio].filter(Boolean).join("  
     object-fit: cover;
     width: 128px;
     border-radius: 16px;
+    /* display: none; */
   }
 
   span {
