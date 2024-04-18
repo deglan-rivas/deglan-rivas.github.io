@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 const PORT='4321'
 const astroConfig = {
   site: '',
-  base: '',
+  // base: '',
 }
 const running_Script = process.env.npm_lifecycle_script || ''
 const isProduction = running_Script?.includes('astro build')
@@ -13,10 +13,10 @@ const isProduction = running_Script?.includes('astro build')
 
 if (isProduction) {
   astroConfig.site = 'https://deglan-rivas.github.io'
-  astroConfig.base = '/frontend-astro-portafolio'
+  // astroConfig.base = '/frontend-astro-portafolio'
 } else {
   astroConfig.site = `http://localhost:${PORT}`
-  astroConfig.base = '/'
+  // astroConfig.base = '/'
 }
 
 // https://astro.build/config
