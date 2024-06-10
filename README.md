@@ -24,4 +24,4 @@
 
 ### **Versión Online**
 
-Usa este [enlace](https://deglan-rivas.github.io/frontend-astro-portafolio/ "Revisar CV") para revisar los enlaces del código desplegado en GitHub Pages.
+Usa este [enlace](https://deglan-rivas.github.io/ "Revisar CV") para revisar los enlaces del código desplegado en GitHub Pages.
