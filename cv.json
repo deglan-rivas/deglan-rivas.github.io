@@ -35,12 +35,45 @@
   },
   "work": [
     {
-      "name": "Notifai",
+      "name": "Programate S.A.C.",
+      "position": "Fullstack Developer",
+      "url": "https://programate.pe/",
+      "startDate": "2024-10-15",
+      "endDate": "2025-04-15",
+      "summary": "Desarrollé y resolví incidencias en MIO, una aplicación web basada en React. Además, gestioné el backend de VisiTasa utilizando Azure Functions en C# para los clientes Tasa y Ologgi. Realicé diagnósticos y soluciones de problemas de infraestructura y código, empleando métricas del dashboard y consultas en KQL en Microsoft Azure.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Aicon ( Wisec AI )",
+      "position": "Fullstack Developer - Part time",
+      "url": "https://www.aiconstruye.com/",
+      "startDate": "2024-07-15",
+      "endDate": "2024-10-15",
+      "summary": "Desarrollé el consumo de APIs externas en el frontend con Next.js y SWR integrando componentes estandarizados como tablas y gráficos con ShadcnUI. Además, mantuve los servicios del backend utilizando Python con FastAPI.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Notifai S.A.C.",
       "position": "Backend Developer",
       "url": "https://www.notifai.pe/",
       "startDate": "2023-01-15",
-      "endDate": null,
-      "summary": "Participé de la migración de un chatbot para el cliente UPN. La migración implicó la transición del monolito a una arquitectura basada en eventos y microservicios en la nube AWS utilizando servicios como Lambda, SQS, EventBridge. Además, contribuí en la creación de pipelines para desarrollo y producción, así como el modelado de datos de la nueva DB no relacional en DocumentDB",
+      "endDate": "2023-11-15",
+      "summary": "Participé en la migración de un chatbot para UPN implementando una arquitectura de microservicios basada en eventos en AWS, utilizando Lambda, SQS y EventBridge. Desarrollé e implementé funcionalidades en IBM Watson y DialogFlow para automatizar procesos. Además, automaticé el despliegue de entornos con pipelines en GitHub Actions y realicé el modelado de datos en AWS DocumentDB.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Core Andina Group S.A.C.",
+      "position": "Backend Developer - Freelancer",
+      "url": "https://www.universidadperu.com/empresas/core-andina-group.php",
+      "startDate": "2023-03-01",
+      "endDate": "2023-06-01",
+      "summary": "Desarrollé el maquetado frontend en HTML/CSS utilizando Bootstrap y mantuve el código en VanillaJS/JQuery migrando posteriormente a React y React Router. Implementé una aplicación de atención a tickets en tiempo real con WebSockets en Node.js. También realicé el mantenimiento de una aplicación de emisión de facturas en Java con Spring Boot.",
       "highlights": [
         "Started the company"
       ]
@@ -49,9 +82,9 @@
       "name": "MDP",
       "position": "Backend Developer",
       "url": "https://pe.linkedin.com/company/miatech-s-a-c",
-      "startDate": "2022-03-01",
-      "endDate": "2022-11-01",
-      "summary": "Desarrollé nuevas funcionalidades para el chatbot DAVI de UPN, incluyendo la implementación de Jobs y Stored Procedures para optimizar la base de datos relacional. Además, colaboré en la migración del código de Javascript a Typescript y proporcioné capacitación a mis colegas",
+      "startDate": "2022-04-01",
+      "endDate": "2022-10-01",
+      "summary": "Desarrollé y mantuve nuevas funcionalidades para el backend del chatbot DAVI (UPN) en Node.js. Optimicé la base de datos PostgreSQL usando Window Functions, CTEs y tablas temporales. Migré el sistema de una arquitectura monolítica a microservicios en la nube de IBM. Además, colaboré en la migración del código de Javascript a Typescript y proporcioné capacitación a mis colegas",
       "highlights": [
         "Started the company"
       ]
@@ -60,9 +93,9 @@
       "name": "Kranzz",
       "position": "Ingeniero de Diseño y Proyectos",
       "url": "https://www.kranzzingenieria.com/",
-      "startDate": "2020-11-01",
-      "endDate": "2021-08-01",
-      "summary": "Participé del proceso creativo de diseño de carcasas mecánicas, planificación del proyecto, creación de mockups para la aplicación móvil utilizando Figma, el desarrollo del proyecto en Flutter y la generación de indicadores para reportes",
+      "startDate": "2020-12-01",
+      "endDate": "2021-07-01",
+      "summary": "Participé en la planificación y desarrollo integral de una aplicación móvil: desde el diseño de carcasas mecánicas y la creación de mockups en Figma hasta la maquetación inicial en App Inventor y la implementación final en Flutter. También desarrollé y mantuve el backend en Java con Spring Boot, y generé indicadores clave para reportes, contribuyendo a una visión completa del proyecto",
       "highlights": [
         "Started the company"
       ]
@@ -368,7 +401,8 @@
         "shutterstock"
       ],
       "url": "https://timely-kitsune-3e5dcb.netlify.app/",
-      "github": "https://github.com/deglan-rivas/layout-tailwind-clonMeta"
+      "github": "https://github.com/deglan-rivas/layout-tailwind-clonMeta",
+      "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/layout-tailwind-clonmeta"
     },
     {
       "name": "Clon Bootstrap",
@@ -381,7 +415,8 @@
         "highlightjs"
       ],
       "url": "https://roaring-bublanina-1b1a88.netlify.app/",
-      "github": "https://github.com/deglan-rivas/layout-tailwind-clonBootstrap"
+      "github": "https://github.com/deglan-rivas/layout-tailwind-clonBootstrap",
+      "dockerhub": "https://hub.docker.com/repository/docker/deglanrivas/layout-tailwind-clonbootstrap/general"
     }
   ],
   "titles": {
