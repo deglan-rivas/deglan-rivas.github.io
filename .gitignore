@@ -23,6 +23,7 @@ pnpm-debug.log*
 # local folders
 .history
 
-# lock files
+# lock files should NOT be ignored
+# package-lock.json
+# pnpm only locally
 pnpm-lock.yaml
-package-lock.json
